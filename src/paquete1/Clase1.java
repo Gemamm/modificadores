@@ -2,18 +2,18 @@
 package paquete1;
 
 
-public class Clase1 {
-    protected String atProtegido;
+class Clase1 {
+     private static String atPrivado;
     
-    protected Clase1(){
-        System.out.println("Imprimiendo desde el constructor vacio protegido clase 1");
+    private Clase1(){
+        System.out.println("Imprimiendo desde el constructor vacio privado clase 1");
     }
     
     public Clase1(String arg){
         System.out.println("Desde el constructor publico con  1 argumento"+ arg);
     }
     
-    protected void metodoProtegido(){
-        System.out.println("Imprimiendo desde metodo protegido.");
+    private void metodoPrivado(){
+        System.out.println("Imprimiendo desde metodo privado.");
     }
 }

@@ -1,5 +1,5 @@
 
-package paquete3;
+package paquete1;
 
 import paquete1.Clase1;
 
@@ -8,10 +8,10 @@ public class Clase3 extends Clase1 {
     
     public Clase3(){
         super();
-        this.atProtegido = "Modificamos el atributo protegido";
+        this.atPrivado = "Modificamos el atributo privado";
         System.out.println("Atributo publico hija" +
-        this.atProtegido);
-        this.metodoProtegido();
+            this.atPrivado);
+        this.metodoPrivado();
         
     }
     
